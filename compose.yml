@@ -1,0 +1,7 @@
+
+services:
+  examen:
+    image: javierrui/api-ruiz
+    ports:
+      - 80:8000
+    restart: always
