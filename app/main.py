@@ -7,7 +7,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 app.include_router(items.router)
 
-#Version4
+#Version 5
 # Código que se añade
 @app.get("/status")
 def version():
